@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css"); 
+
+@import url("components/banner.css"); 
+
+@import url("components/card.css");
+
+body {
+  	color: rgb(230, 230, 230);    
+	font-family:'Times new roman', sans-serif;
+	background-color:  lightskyblue; 
+	font-weight: normal;
+  font-size: 18px;
+	letter-spacing: 0px;
+  color: rgb(30, 30, 30);
+	text-align: left;
+	text-decoration: none; 
+	margin: 80px 0px;
+	padding: 0px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+}
+
+
+h1,  {
+  font-weight: bolder;
+
+  margin: 20px 0px; 
+  margin-bottom : 40px;
+	padding: 0px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+	text-align: center;
+}
+
+h2, h3 {
+  font-weight: bolder;
+    font-size: 22px;
+
+  margin: 20px 0px; 
+  margin-bottom : 40px;
+	padding: 0px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+	text-align: center;
+}
+
+
+a {
+  color: #1E90FF;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+a:hover { /*quand on a met la souris dessus*/
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+	width:  700 px;
+	margin:  50px auto;
+	background color: white;
+	padding :60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+	text-align: center ;
+}
+
+.card-white{
+  background:#DFF2FF;
+  box-shadow:  0px 10px 30 px rgba(0,0,0,3);
+  border : 5px solid black;
+    border-radius: 10px;
+  margin: 50px 50px; 
+padding: 0px 34px; 
+}
+
+.img-circle { 
+  border-radius: 50%;
+  text-align: center ;
+    margin: 10px 10px; 
+
+} 
+
+.img-bordered {
+  border: 3px solid black;
+}
+.text-center { 
+  text-align: center ;
+}
+.text-invisible   {      
+  color: #DFF2FF ;
+}
+
+
+.list-inline li {
+display : inline;
+padding : 20px;
+	}
+
+.list-inline i {
+font-size:  50px;
+}
+
+.btn-blue{
+Background-color: #1E90FF;
+Color: white ;
+text : center ;
+Padding: 15px 10px;
+margin-bottom : 40px;
+margin: 50px 1px; 
+border-radius: 4% ;
+transition: 0.1s ease ;
+}
+
+
+.btn-blue: hover{
+	  color background: black;
+  text-decoration: none;
+}
+
+.shadowbox {
+  width: 25px;
+  border: 1px solid ;
+  box-shadow: 8px 8px 5px ;
+  padding: 18px 12px;
+}
+
+
+#introduction h1{
+margin-bottom : 40px
+}
+
+
